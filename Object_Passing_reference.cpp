@@ -19,12 +19,18 @@ public:
     }
 };
 
-BASE fun1(BASE &b)
+BASE fun1(BASE &b)//Object Reference 
 {
     b.a+=1;
     b.b+=1;
     return b;
+}
 
+BASE by_value(BASE b)//object by value
+{
+    b.a*=2;
+    b.b*=2;
+    return b;
 }
 
 int main()
@@ -34,5 +40,8 @@ int main()
 
     result=fun1(s);//passing object as argument and returning object
 
+    result.display();
+
+    result=by_value(s);//passing object as reference argument and returning the object
     result.display();
 }
