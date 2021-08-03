@@ -1,1 +1,1 @@
-# Diploma-C-Lab-Programs
+# Diploma-C++-Lab-Programs
