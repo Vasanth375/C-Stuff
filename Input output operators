@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"Enter data values a and b:-";
+    cin>>a>>b;    //extraction operator get input from keyboard
+    c=a+b;
+    cout<<c;  //insertion operator send output to the console monitor
+}
